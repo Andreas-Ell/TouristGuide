@@ -1,10 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Attractions</title>
+    <link th:href="@{/main.css}" rel="stylesheet">
 </head>
 <body>
-$END$
+
+<tbody>
+<tr th:each="touristAttractions : ${touristAttractions}">
+    <td th:text="${touristAttractions}">TouristGuide</td>
+</tr>
+
+</tbody>
+
+
+
 </body>
 </html>
