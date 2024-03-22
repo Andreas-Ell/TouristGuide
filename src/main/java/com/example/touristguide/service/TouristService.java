@@ -18,6 +18,15 @@ public class TouristService {
 
 
 
+    public void deleteAttractionFromService(String object) {
+        rp.deleteAttraction(object);
+    }
+
+
+
+
+
+
 
 
 

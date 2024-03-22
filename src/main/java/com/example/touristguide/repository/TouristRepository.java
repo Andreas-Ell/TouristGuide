@@ -27,6 +27,10 @@ public class TouristRepository {
     }
 
 
+    public void deleteAttraction(String object) {
+        touristAttractions.remove(object);
+    }
+
 
 
 

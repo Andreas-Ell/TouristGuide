@@ -10,8 +10,15 @@
 <tbody>
 <tr th:each="touristAttractions : ${touristAttractions}">
     <td th:text="${touristAttractions}">TouristGuide</td>
-</tr>
 
+
+<form>
+    <label for="name">Name</label>
+    <input type="text" th:field="*{name}">
+
+</form>
+
+</tr>
 </tbody>
 
 
