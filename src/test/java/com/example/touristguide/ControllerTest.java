@@ -14,12 +14,12 @@ import static java.lang.reflect.Array.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.view;
 
-/*
+
 @WebMvcTest(TouristController.class)
 public class ControllerTest {
 
 
-    private TouristAttraction touristAttraction = new TouristAttraction();
+    //private TouristAttraction touristAttraction = new TouristAttraction();
 
 
     @Autowired
@@ -31,13 +31,15 @@ public class ControllerTest {
 
 
 
-
+/*
     @Test
     void showList() throws Exception {
-        mockMvc.perform(get("/attractions"))
+        mockMvc.perform(get())
                 .andExpect(status().isOk())
                 .andExpect(view().name("attractionList"));
     }
+
+ */
 
 
 
@@ -46,4 +48,4 @@ public class ControllerTest {
 
 }
 
- */
+

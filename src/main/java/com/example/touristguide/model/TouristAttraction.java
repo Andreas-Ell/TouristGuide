@@ -3,36 +3,45 @@ package com.example.touristguide.model;
 public class TouristAttraction {
 
 
-        private String name;
-        private String description;
+        private int attractionID;
+        private String attractionName;
+        private String attractionDescription;
 
 
-        public TouristAttraction(String name, String description) {
-            this.name = name;
-            this.description = description;
-        }
-
-        public String getName() {
-            return name;
-        }
-
-        public String getDescription() {
-            return description;
-        }
-
-        public void setName(String newName) {
-            name = newName;
-        }
-
-        public void setDescription(String newDescription) {
-            description = newDescription;
+        public TouristAttraction(int attractionID, String attractionName, String attractionDescription) {
+            this.attractionID = attractionID;
+            this.attractionName = attractionName;
+            this.attractionDescription = attractionDescription;
         }
 
 
-
-        public String toString() {
-            return name + description;
+        public int getAttractionID() {
+            return attractionID;
         }
+
+
+        public String getAttractionName() {
+            return attractionName;
+        }
+
+
+        public String getAttractionDescription() {
+            return attractionDescription;
+        }
+
+
+        public void setAttractionName(String newAttractionName) {
+            attractionName = newAttractionName;
+        }
+
+
+        public void setAttractionDescription(String newAttractionDescription) {
+            attractionDescription = newAttractionDescription;
+        }
+
+
+
+
 
 
     }

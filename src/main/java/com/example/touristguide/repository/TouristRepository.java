@@ -32,6 +32,13 @@ public class TouristRepository {
     }
 
 
+    // Alt i denne klasse skal flyttes ind i TouristRepository_DB klassen og skal selvfølgelig opsættes på en anden måde.
+
+
+
+    
+
+
 
 
 
